@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fondo{
+    background-image:url(../image/elfondo.jpg);
+    height: 40vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: brown;
+}
+
+body{
+    background-color:rgb(233, 228, 228);
+}
+
+
+.nosotros{
+    width: 540px;
+
+}
+
+.productos{
+    width: 540px;
+    margin-top: -190px;
+}
+
+.col{
+    display: flex;
+}
+
+.card1{
+    width: 100%;
+    display: flex;
+}
+
+.card{
+display: flex;
+margin-right: 20px;
+padding-bottom :10px;
+transition: all 400ms ease;
+margin-left: 50px;    
+width:100%
+}
+
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card p{
+    padding: 15px;
+    text-align: center;
+}
+
+
+.links{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+text-align: center;
+padding: 10px 40px;
+color: black;
+text-decoration: none;
+background-color: lightgrey;
+border-radius: 10px;
+margin-top: 10px;
+font-weight: 600;
+box-shadow: 0 0 5px black;
+}
+
+.links:hover{
+background: rgb(190, 35, 35);
+
+}
+
+.accordion-button{
+background-color: rgb(211, 188, 188);
+font-weight: 1rem;
+font-size: 1rem;
+}
+
+
+.video-contenedor {
+    position: relative;
+    padding-bottom: 50%;
+    padding-top: 0px;
+    overflow: hidden;
+    
+}
+ 
+.video-contenedor iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 80%;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+.titulo{
+    background-image: url(../assets/elfondo.jpg);
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: brown;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: white;
+    }
+
+
+
+#ml{
+    border-radius: 50%;
+}
+   
+main div div p{
+    font-family: 'MuseoModerno' ;
+    font-family: 16px;
+}
+
+
+ 
+.borde1{
+    
+    width: 80%;
+    color: rgb(7, 7, 7);
+    border-width: 10px;
+}
+
+.borde2{
+
+    width: 60%;
+    color: rgb(190, 35, 35);
+    border-width: 5px;
+
+}
+
+
+main div div h1{
+    color: brown;
+}
+
+#bienvenidos{
+    text-align: center;
+    font-family: 'MuseoModerno' ;
+    font-size: 16px;
+    outline-style :none;
+
+}
+
+#servicio{
+    text-align: center;
+    font-family: 'MuseoModerno' ;
+    font-size: 16px;
+    outline-style :none;
+outline-width :10px;
+overflow-wrap :break-word;
+
+}
+
+
+
+
+    main div div  h4{
+    color: rgb(90, 29, 29);
+}
+
+main div h3{
+    color: rgb(90, 29, 29) ;
+}
+
+
+header div h1{
+    color: white;
+   font-family:'MuseoModerno';
+}
+
+.imgnosotros img{
+    border-radius: 80px 20px;
+}
+
+.compra b{
+    font-family:'MuseoModerno';
+}
+
+.compra img{
+    border-radius: 50%;
+}
+
+#imgservicios{
+border-radius: 80px 20px;
+}
+
+.conteiner-form{
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+
+.conteiner-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: rgb(190, 35, 35);
+    
+}
+
+.conteiner-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 2%;
+    color: black;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.conteiner-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.conteiner-form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+
+}
+
+.btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    border-radius: 3px;
+    background-color: rgb(165, 100, 100);
+    color: white;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.btn-enviar:hover{
+    background-color: black;
+}
